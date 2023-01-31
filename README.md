@@ -8,6 +8,8 @@ mul_fpt2018.vhd : Mul unit (fp_mul_128_112_15_6). Latency is 6 cycles. The multi
 
 utils.vhd : Varius IP components used in the Add and Mul units. 
 
-addmul.xml : The XML definition of the two modules for aocl/fpga_crossgen
+addmul.xml : The XML definition of the two modules for fpga_crossgen/fpga_libtool.
+
+genlib.sh : Script to generate the library for aoc
 
 Reference: Nakasato, Daisaka & Ishikawa, FTP2018, https://ieeexplore.ieee.org/document/8742336

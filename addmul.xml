@@ -19,13 +19,10 @@
       <INPUT  port="datainB" width="128"/>
       <OUTPUT port="dataout" width="128"/>
     </INTERFACE>
-    <C_MODEL>
-      <FILE name="c_model.cl" />
-    </C_MODEL>
     <REQUIREMENTS>
       <FILE name="v_add_f.v" />
       <FILE name="add_fpt2018.vhd" />
-      <FILE name="util.vhd" />
+      <FILE name="utils.vhd" />
     </REQUIREMENTS>
     </FUNCTION>
 
@@ -49,13 +46,10 @@
       <INPUT  port="datainB" width="128"/>
       <OUTPUT port="dataout" width="128"/>
     </INTERFACE>
-    <C_MODEL>
-      <FILE name="c_model.cl" />
-    </C_MODEL>
     <REQUIREMENTS>
       <FILE name="v_mul_f.v" />
       <FILE name="mul_fpt2018.vhd" />
-      <FILE name="util.vhd" />
+      <FILE name="utils.vhd" />
     </REQUIREMENTS>
     </FUNCTION>
 </RTL_SPEC>
